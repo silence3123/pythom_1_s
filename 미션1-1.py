@@ -1,4 +1,4 @@
-def inp():
+def inp(): #간단한 수정
     stuff=(input("물품 이름 : "))
     stuff_list[0]=float(input("기존 %s의 재고량 (단위 : 개): "%(stuff)))
     stuff_list[2]=float(input("물품의 가격 (단위 : 원) : "))
